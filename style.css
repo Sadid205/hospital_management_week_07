@@ -1,0 +1,79 @@
+.nav_list{
+    list-style: none;
+}
+.list_item:hover{
+    cursor: pointer;
+    color: rgb(170, 170, 226);
+}
+.list_item{
+    font-weight: bold;
+}
+
+.banner{
+    height: 40vh;
+    background: linear-gradient(90deg, rgba(193,224,223,1) 0%, rgba(86,190,213,1) 100%);;
+}
+
+.right_banner img {
+    margin-top: -150px;
+}
+.service_section{
+    width: 80%;
+    margin:auto;
+}
+.service_card{
+    width: 300px;
+    padding: 10px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+.service_card img{
+    width: 100%;
+}
+.doc_card{
+    border: 1px solid gray;
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgb(35, 35, 35,0.5);
+}
+.card_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.search_doctors{
+    width: 85%;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border-color: gray;
+    border: none;
+    box-shadow: 4px 4px 8px gray;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.search_btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background:  linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#spinner_div{
+    display: none;
+}
+#nodata_div{
+    display: none;
+}
+footer{
+    background: linear-gradient(66.15deg, #1CA8C7 -5.25%, #439FA5 46.76%, #4C7D8C 98.77%);
+    padding: 20px;
+}
